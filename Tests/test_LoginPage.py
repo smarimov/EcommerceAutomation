@@ -12,3 +12,6 @@ class TestLogin(BaseTest):
         self.loginPage = LoginPage(self.driver)
         flag = self.loginPage.do_go_back_home_page()
         assert flag
+
+
+
